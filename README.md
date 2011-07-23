@@ -1,6 +1,6 @@
 ## Compiling the code
 1. Change to base dir.
-`cd decider/src/main/java`
+    cd decider/src/main/java
 
 2. Compile the necessary code files.
 `javac com/decider/core/*.java com/decider/core/types/*.java com/decider/cli/*.java`
