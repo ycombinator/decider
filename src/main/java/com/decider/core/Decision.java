@@ -14,8 +14,8 @@ public class Decision {
     private Set <Choice> choices;
     private Set <Choice> winningChoices;
 
-    public Decision(String label) {
-	this.setLabel(label);
+    public Decision() {
+	this.setLabel(null);
 	this.factors = new HashSet <Factor>();
 	this.choices = new HashSet <Choice>();
 	this.winningChoices = new HashSet <Choice>();
