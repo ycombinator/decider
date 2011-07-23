@@ -5,6 +5,7 @@
 2. Compile the necessary code files.  
     a. If you wish to merely run the code (as opposed to debug it with `jdb`), run the following command:  
     `javac com/decider/core/*.java com/decider/core/types/*.java com/decider/cli/*.java`
+
     b. If you wish to debug the code with `jdb`, run the following command:  
     `javac -g com/decider/core/*.java com/decider/core/types/*.java com/decider/cli/*.java`
 
